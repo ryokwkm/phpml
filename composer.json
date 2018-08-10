@@ -3,7 +3,8 @@
     "description": "Example implementation of a Tweet sentiment analysis with PHP-ML",
     "type": "project",
     "require": {
-        "php-ai/php-ml": "^0.4.1"
+        "php-ai/php-ml": "^0.4.1",
+        "deployer/deployer": "dev-master"
     },
     "license": "Apache License 2.0",
     "authors": [

@@ -6,5 +6,17 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
+    'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
+    'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
+    'Symfony\\Component\\Process\\' => array($vendorDir . '/symfony/process'),
+    'Symfony\\Component\\Debug\\' => array($vendorDir . '/symfony/debug'),
+    'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'PhpmlExercise\\' => array($baseDir . '/src'),
+    'Deployer\\Component\\Version\\' => array($vendorDir . '/deployer/phar-update/src/Version'),
+    'Deployer\\Component\\PharUpdate\\' => array($vendorDir . '/deployer/phar-update/src'),
+    'Deployer\\Component\\PHPUnit\\' => array($vendorDir . '/deployer/phar-update/src/PHPUnit'),
+    'Deployer\\' => array($vendorDir . '/deployer/deployer/src'),
 );
